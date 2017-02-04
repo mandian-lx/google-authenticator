@@ -44,6 +44,3 @@ popd
 %install
 %makeinstall_std -C libpam
 
-%check
-%make -C libpam test
-
